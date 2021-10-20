@@ -214,7 +214,7 @@ li#hamburger {
     width: 23.8%;
     height: 100px;
     box-sizing: border-box;
-    background-color: goldenrod;
+    background-color: forestgreen;
     display: block;
 }
 
@@ -230,7 +230,7 @@ li#hamburger {
     width: 40.73%;
     height: 100px;
     box-sizing: border-box;
-    background-color: goldenrod;
+    background-color: chocolate;
     display: block;
 }
 
@@ -238,7 +238,7 @@ li#hamburger {
     width: 49.2%;
     height: 100px;
     box-sizing: border-box;
-    background-color: goldenrod;
+    background-color: mediumpurple;
     display: block;
 }
 
