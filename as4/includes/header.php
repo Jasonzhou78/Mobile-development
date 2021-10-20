@@ -1,7 +1,7 @@
 <?php
    
    echo "<div id='header'> 
-        <p>Animal adoption</p>
+        <p>Golden Retriever Introduction</p>
         <ul>
             <li id='li'>
                 <a href = 'as3.php'>About Golden Retriever</a>
