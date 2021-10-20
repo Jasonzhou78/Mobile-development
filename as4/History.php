@@ -8,7 +8,8 @@
 	<body>
 		
  		<?php
-            echo "<div id='container'>";
+           echo "<h1>The History of Golden Retriever</h1>"
+           echo "<div id='container'>";
                 require_once("includes/header.php");
                 echo "<div><img src='img/Skeleton2.jpg' class='image'></div><div id='col1'>
                     <h2>From United Kindom</h2>
