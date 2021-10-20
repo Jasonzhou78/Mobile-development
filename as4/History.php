@@ -8,9 +8,10 @@
 	<body>
 		
  		<?php
-           echo "<h1>The History of Golden Retriever</h1>"
+
            echo "<div id='container'>";
                 require_once("includes/header.php");
+                echo "<h1>The History of Golden Retriever</h1>";
                 echo "<div><img src='img/Skeleton2.jpg' class='image'></div><div id='col4'>
                     <h2>From United Kindom</h2>
                     <p>Golden Retrievers were firstly registered by The Kennel Club in 1903. They were first exhibited in 1908, 

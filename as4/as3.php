@@ -12,11 +12,12 @@ Topic: Responsive web page
 	</head>
 	<body>
 	<?php	
-		echo "<h1>About Golden Retriever</h1>"
+
 		echo "<div id='container'>";
         require_once("includes/header.php");
-		echo "<div><img src='img/img.jpg' class='image'></div>
-		<div id='col6'></div><div id='col3'></div><div id='col3'></div>";
+		echo "<h1>About Golden Retriever</h1>";
+		echo "<div><img src='img/img.jpg' class='image'></div>".
+		"<div id='col6'></div><div id='col3'></div><div id='col3'></div>";
         require_once("includes/footer.php");
 		echo "</div>";
     ?>
