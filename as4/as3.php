@@ -12,6 +12,7 @@ Topic: Responsive web page
 	</head>
 	<body>
 	<?php	
+		echo "<h1>About Golden Retriever</h1>"
 		echo "<div id='container'>";
         require_once("includes/header.php");
 		echo "<div><img src='img/img.jpg' class='image'></div>
