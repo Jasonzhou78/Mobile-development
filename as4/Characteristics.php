@@ -7,9 +7,10 @@
 	</head>
 	<body>
         <?php
-            echo "<h1>The Characteristics of Golden Retriever</h1>";
+
             echo "<div id='container'>";
                 require_once("includes/header.php");
+                echo "<h1>The Characteristics of Golden Retriever</h1>";
                 echo "<div><img src='img/temper.jpg' class='image'></div>
                 <div id='col3'>
                     <h2>Coat</h2>
