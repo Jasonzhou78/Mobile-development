@@ -16,7 +16,7 @@ Topic: Responsive web page
 		echo "<div id='container'>";
         require_once("includes/header.php");
 		echo "<div><img src='img/img.jpg' class='image'></div>
-		<div id='col1'></div><div id='col2'></div>";
+		<div id='col12'></div><div id='col3'></div>";
         require_once("includes/footer.php");
 		echo "</div>";
     ?>
