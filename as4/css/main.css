@@ -215,7 +215,7 @@ li#hamburger {
     height: 100px;
     box-sizing: border-box;
     background-color: forestgreen;
-    display: block;
+    display: inline-block;
 }
 
 #col4 {
@@ -223,7 +223,7 @@ li#hamburger {
     height: 100px;
     box-sizing: border-box;
     background-color: goldenrod;
-    display: block;
+    display: inline-block;
 }
 
 #col5 {
@@ -231,7 +231,7 @@ li#hamburger {
     height: 100px;
     box-sizing: border-box;
     background-color: chocolate;
-    display: block;
+    display: inline-block;
 }
 
 #col6 {
@@ -239,7 +239,7 @@ li#hamburger {
     height: 100px;
     box-sizing: border-box;
     background-color: mediumpurple;
-    display: block;
+    display: inline-block;
 }
 
 #col12 {
@@ -247,7 +247,7 @@ li#hamburger {
     height: 100px;
     box-sizing: border-box;
     background-color: goldenrod;
-    display: block;
+    display: inline-block;
 }
 
 #footer {
