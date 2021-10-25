@@ -3,27 +3,38 @@
 	<head>
 		<title>St. Clair College</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="./css/main.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		
  		<?php
-
-           echo "<div id='container'>";
+            echo "<div id='container'>";
+            echo "<h1>The History of Golden Retriever</h1>";
                 require_once("includes/header.php");
-                echo "<h1>The History of Golden Retriever</h1>";
-                echo "<div><img src='img/Skeleton2.jpg' class='image'></div><div id='col4'>
+                echo "<div><img src='img/Skeleton2.jpg' class='image'></div>
+                
+                <div id='col6'>
                     <h2>From United Kindom</h2>
-                    <p>Golden Retrievers were firstly registered by The Kennel Club in 1903. They were first exhibited in 1908, 
-                    and in 1911 Golden Retrievers were recognized as a breed (Golden and Yellow Retrievers).</p>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                 </div><div id='col4'>
                     <h2>From United States</h2>
-                    <p>in 1925, the American Kennel Club started breed Golden Retrievers in 1925. Following that, the Golden Retriever Club of 
-                    America was founded in 1938. As of the year 1999, 62,652 have been registered and ranked #2, and the only breed above 
-                    them is the Labrador Retriever. </p>
-                </div><div id='col4'></div>";
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div><div id='col2'>
+                    <h2>From United States</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div><div id='col2'><h2>From United States</h2>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col3'><h2>From United States</h2>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col3'><h2>From United States</h2>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col4'><h2>From United States</h2>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div>";
+
             require_once("includes/footer.php");
             echo "</div>";         
         ?>
+    	<script src="js/jquery.js"></script>
+        <script src="js/main.js" defer></script>
 	</body>
 </html>
