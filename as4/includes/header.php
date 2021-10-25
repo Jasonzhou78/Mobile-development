@@ -1,17 +1,18 @@
+
 <?php
-   
-   echo "<div id='header'> 
-        <p>Golden Retriever Introduction</p>
-        <ul>
-            <li id='li'>
+   echo "<li class='hmenu'>&#9776;</li>";
+   echo "<div id='header'>"; 
+        echo "<ul>";
+            echo "<li class='li'>
                 <a href = 'as3.php'>About Golden Retriever</a>
             </li>
-            <li id='li'>
+            <li class='li'>
                 <a href = 'History.php'>History</a>
             </li>
-            <li id='li'>
+            <li class='li'>
                 <a href = 'Characteristics.php'>Characteristics</a>
-            </li>
-        </ul>
-   </div>";
+            </li>";
+
+        echo "</ul>";
+   echo "</div>";
 ?>
