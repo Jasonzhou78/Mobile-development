@@ -11,8 +11,10 @@
             </li>
             <li class='li'>
                 <a href = 'Characteristics.php'>Characteristics</a>
+            </li>
+            <li class='li'>
+            <a href = 'contact_us.php'>Contact Us</a>
             </li>";
-
         echo "</ul>";
    echo "</div>";
 ?>
