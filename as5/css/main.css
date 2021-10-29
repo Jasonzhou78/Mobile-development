@@ -175,6 +175,17 @@ a:hover {
     display: block;
 }
 
+.location {
+    width: 100%;
+    height: 200px;
+    background-color: #f00;
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
 #col6 {
     width: 50%;
     height: 200px;
@@ -193,7 +204,7 @@ a:hover {
     vertical-align: top;
     box-sizing: border-box;
     display: inline-block;
-    、 vertical-align: top;
+    vertical-align: top;
     margin-top: 5px;
 }
 
