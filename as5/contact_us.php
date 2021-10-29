@@ -103,7 +103,7 @@ Topic: Responsive web page
 		echo "<h1>Contact Information</h1>";
         require_once("includes/header.php");
 		echo "<div id='location'>";
-			echo "<p>Click the button to get your coordinates.</p>
+			echo "<p>Click the button to get your coordinates.</br></p>
 			<button onclick='getLocation();'>Show My Location</button>";
 			echo "<p id='currentLocation'></p>";
 			echo "<div id='googleMap'></div>";
