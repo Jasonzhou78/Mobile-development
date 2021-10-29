@@ -15,6 +15,8 @@ Topic: Responsive web page
 	</head>
 	<body>
 	<?php	
+
+	echo
 		echo "<div id='container'>";
 		echo "<h1>Golden Retriever Introduction</h1>";
         require_once("includes/header.php");
