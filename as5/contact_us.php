@@ -33,7 +33,7 @@ Topic: Responsive web page
 		}
 	</script>
 		<?php
-		echo "<div>";
+		echo "<div class='location'>";
 		echo "<p>Click the button to get your coordinates.</p>
 		<button onclick='getLocation();'>Show My Location</button>";
 		echo "</div>";
