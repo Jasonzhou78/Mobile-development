@@ -34,10 +34,10 @@ Topic: Responsive web page
 	</script>
 		<?php
 		echo "<div class='location'>";
-		echo "<p>Click the button to get your coordinates.</p>
-		<button onclick='getLocation();'>Show My Location</button>";
+			echo "<p>Click the button to get your coordinates.</p>
+			<button onclick='getLocation();'>Show My Location</button>";
+			echo "<div id='currentLocation'></div>";
 		echo "</div>";
-		echo "<div id='currentLocation'></div>";
 		?>
 		<script src="js/jquery.js"></script>
         <script src="js/main.js" defer></script>
