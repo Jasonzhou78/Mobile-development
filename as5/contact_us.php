@@ -23,25 +23,29 @@ Topic: Responsive web page
 	</head>
 	<body>
 	<script>
-		function getLocation() {
-		    if (navigator.geolocation) {
-		        navigator.geolocation.getCurrentPosition(showPosition);
-		    } else { 
-		        document.getElementById("currentLocation").innerHTML = "Geolocation is not supported by this browser.";
-		    }
-		}
-	
-		function showPosition(position) {	
-			
-		    var lat = position.coords.latitude;
-			var lon = position.coords.longitude;		
-			
-		    document.getElementById("currentLocation").innerHTML = "Latitude: " + lat + 
-		    "<br>Longitude: " + lon;
-			document.getElementById("directions").innerHTML = "<a href='"+dir_url+"'>GET DIRECTIONS TO THE CN TOWER</a>";
-			showMap(position); 
-		}
-		function showMap(position) {
+    function getLocation() {
+        if (navigator.geolocation) {
+            console.log("asking for location");
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else { 
+            document.getElementById("currentLocation").innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+    
+    function showPosition(position) {	
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;	
+        
+        var dir_url = "https://www.google.ca/maps/dir/"+lat+","+lon+"/Humane+Society,+1375+Provincial+Road,+Windsor,+ON+N8W+5V8/@42.2594N,82.9805W,6z";    
+    	
+    	document.getElementById("currentLocation").innerHTML = "Latitude: " + lat + "<br>Longitude: " + lon;  
+    
+        document.getElementById("directions").innerHTML = "<a href='"+dir_url+"'>GET DIRECTIONS TO THE CN TOWER</a>";    
+        
+        showMap(position);      
+    }
+    
+    function showMap(position) {
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
         var zoom = 12;
@@ -71,9 +75,13 @@ Topic: Responsive web page
             }         
         });
     }
-	
-	function showError(error) {
-    	var myDiv = document.getElementById("currentLocation");
+    
+
+    
+    
+    
+    function showError(error) {
+    	var myDiv = document.getElementById("location");
         switch(error.code) {
             case error.PERMISSION_DENIED:
                 myDiv.innerHTML = "User denied the request for Geolocation."
@@ -89,7 +97,7 @@ Topic: Responsive web page
                 break;
         }
     }
-	</script>
+</script>
 		<?php
 		echo "<div id='container'>";
 		echo "<h1>Contact Information</h1>";
