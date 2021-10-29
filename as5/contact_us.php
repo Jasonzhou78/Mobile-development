@@ -97,7 +97,9 @@ Topic: Responsive web page
 		echo "<div id='location'>";
 			echo "<p>Click the button to get your coordinates.</p>
 			<button onclick='getLocation();'>Show My Location</button>";
-			echo "<div id='currentLocation'></div>";
+			echo "<p id="currentLocation"></p>";
+			echo "<div id="googleMap"></div>";
+			echo "<div id="directions"></div>";
 		echo "</div>";
 
 		echo "<div>";
