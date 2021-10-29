@@ -4,7 +4,7 @@
    echo "<div id='header'>"; 
         echo "<ul>";
             echo "<li class='li'>
-                <a href = 'as3.php'>About</a>
+                <a href = 'as3.php'>About Golden</a>
             </li>
             <li class='li'>
                 <a href = 'History.php'>History</a>
