@@ -117,6 +117,27 @@ Topic: Responsive web page
 		echo "</div>";
 
 		?>
+
+		<div id="message"></div>
+		<form action="contact.php" method="post" name="myform" id="myForm">
+			<div class="fieldWrap">
+				<label for="fname">First Name</label><br>
+				<input type="text" name="fname" id="fname" value="" size="30" placeholder="Your First Name">
+			</div>
+			<div class="fieldWrap">
+				<label for="lname">Last Name</label><br>
+				<input type="text" name="lname" id="lname" value="" size="30" placeholder="Your Last Name">
+			</div>
+			<div class="fieldWrap">
+				<label for="email">Email Address</label><br>
+				<input type="text" name="email" id="email" value="" size="25" placeholder="name@domain.com">
+			</div>
+			<div class="fieldWrap">
+				<label for="phone">Phone Number</label><br>
+				<input type="text" name="phone" id="phone" value="" size="15" placeholder="888-888-8888">
+			</div>
+			<button type="submit" value="Send email" name="submit" id="submit">SUBMIT</button>
+		</form>
 		<script src="js/jquery.js"></script>
         <script src="js/main.js" defer></script>
 	</body>
