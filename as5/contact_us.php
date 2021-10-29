@@ -73,7 +73,7 @@ Topic: Responsive web page
     }
 	
 	function showError(error) {
-    	var myDiv = document.getElementById("location");
+    	var myDiv = document.getElementById("currentLocation");
         switch(error.code) {
             case error.PERMISSION_DENIED:
                 myDiv.innerHTML = "User denied the request for Geolocation."
