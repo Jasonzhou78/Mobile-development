@@ -8,7 +8,7 @@ Topic: Responsive web page
 	<head>
 		<title>St. Clair College</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="./css/main.css" type="text/css">
+		<link rel="stylesheet" href="css/main.css" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet">
@@ -94,7 +94,7 @@ Topic: Responsive web page
 		echo "<div id='container'>";
 		echo "<h1>Contact Information</h1>";
         require_once("includes/header.php");
-		echo "<div class='location'>";
+		echo "<div id='location'>";
 			echo "<p>Click the button to get your coordinates.</p>
 			<button onclick='getLocation();'>Show My Location</button>";
 			echo "<div id='currentLocation'></div>";
@@ -103,6 +103,7 @@ Topic: Responsive web page
 		echo "<div>";
 		require_once("includes/footer.php");
 		echo "</div>";
+
 		echo "</div>";
 
 		?>
