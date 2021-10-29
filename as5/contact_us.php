@@ -33,11 +33,20 @@ Topic: Responsive web page
 		}
 	</script>
 		<?php
+		echo "<div id='container'>";
+		echo "<h1>Contact Information</h1>";
+        require_once("includes/header.php");
 		echo "<div class='location'>";
 			echo "<p>Click the button to get your coordinates.</p>
 			<button onclick='getLocation();'>Show My Location</button>";
 			echo "<div id='currentLocation'></div>";
 		echo "</div>";
+
+		echo "<div>";
+		require_once("includes/footer.php");
+		echo "</div>";
+		echo "</div>";
+
 		?>
 		<script src="js/jquery.js"></script>
         <script src="js/main.js" defer></script>
