@@ -15,19 +15,7 @@ Topic: Responsive web page
 	</head>
 	<body>
 	<?php	
-		echo "<div id='container'>";
-		echo "<h1>Golden Retriever Introduction</h1>";
-        require_once("includes/header.php");
-		echo "<div><img src='img/img.jpg' class='image'></div>
-        <div id='col5'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col3'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col4'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col3'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col5'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col2'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div><div id='col2'><h2>From United States</h2>
-		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p></div>";
-        echo "</div>";
+		
 
         require_once("includes/footer.php");
 		echo "</div>";
