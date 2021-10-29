@@ -110,15 +110,11 @@ Topic: Responsive web page
 			echo "<div id='directions'></div>";
 		echo "</div>";
 
-		echo "<div>";
-		require_once("includes/footer.php");
-		echo "</div>";
+
 
 		echo "</div>";
 
 		?>
-
-		<div id="message"></div>
 		<form action="contact.php" method="post" name="myform" id="myForm">
 			<div class="fieldWrap">
 				<label for="fname">First Name</label><br>
@@ -138,6 +134,11 @@ Topic: Responsive web page
 			</div>
 			<button type="submit" value="Send email" name="submit" id="submit">SUBMIT</button>
 		</form>
+		<?php
+				echo "<div>";
+				require_once("includes/footer.php");
+				echo "</div>";
+		?>
 		<script src="js/jquery.js"></script>
         <script src="js/main.js" defer></script>
 	</body>
