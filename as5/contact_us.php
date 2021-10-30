@@ -40,7 +40,7 @@ Topic: Responsive web page
     	
     	document.getElementById("currentLocation").innerHTML = "Latitude: " + lat + "<br>Longitude: " + lon;  
     
-        document.getElementById("directions").innerHTML = "<a href='"+dir_url+"'>GET DIRECTIONS TO THE CN TOWER</a>";    
+        document.getElementById("directions").innerHTML = "<a href='"+dir_url+"'>GET DIRECTIONS TO Windsor Humane Society</a>";    
         
         showMap(position);      
     }
@@ -106,8 +106,8 @@ Topic: Responsive web page
 			echo "<p>Click the button to get your coordinates.</br></p>
 			<button onclick='getLocation();'>Show My Location</button>";
 			echo "<p id='currentLocation'></p>";
-			echo "<div id='googleMap'></div>";
-			echo "<div id='directions'></div>";
+			echo "<div id='googleMap'></div><br>";
+			echo "<div id='directions'></div><br>";
 		echo "</div>";
 
 
@@ -115,6 +115,8 @@ Topic: Responsive web page
 		echo "</div>";
 
 		?>
+		<div class="form-center"></div>
+		<div class="form-center">
 		<form action="contact.php" method="post" name="myform" id="myForm">
 			<div class="fieldWrap">
 				<label for="fname">First Name</label><br>
@@ -134,6 +136,7 @@ Topic: Responsive web page
 			</div>
 			<button type="submit" value="Send email" name="submit" id="submit">SUBMIT</button>
 		</form>
+		</div>
 		<?php
 				echo "<div>";
 				require_once("includes/footer.php");
